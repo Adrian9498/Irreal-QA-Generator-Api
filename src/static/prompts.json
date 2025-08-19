@@ -1,0 +1,5 @@
+{
+    "login":"Para poder probar una pantalla de login de una aplicacion web/app que utiliza los campos usuario y password para poder iniciar sesion. Necesito los casos de prueba para este tipo de login en el sigiente formato json {'casos_prueba':[{'id':'TC_001','descripcion':'descripcion casos de prueba','pasos':['paso_1','paso_2']},{'id':'TC_002','descripcion':'descripcion casos de prueba','pasos':['paso_1','paso_2']}]}, solo envia el JSON y mandalo sin caracteres de escape, todo junto y sin espacios.",
+    "recoverPass":"Prompt para recuperar pass",
+    "register":"Prompt para crear un registro nuevo"
+}
