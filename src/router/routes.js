@@ -8,10 +8,11 @@
 */
 
 import { Router } from "express";
-
+import { analizefigmaQA, spellChekfigmaQA} from "../controllers/figma.controller.js";
 
 const router = Router();
 
 router.post("/qa/design/figma/comments", analizefigmaQA);
+router.post("/qa/spellcheck/figma/comments", spellChekfigmaQA);
 
 export default router;

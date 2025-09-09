@@ -1,5 +1,8 @@
+import dotenv from 'dotenv';
 
-const BASE_URL = "http://localhost:3000"
+dotenv.config();
+
+const BASE_URL = process.env.GENAI_BASE_URL
 const CONTENT_TYPE =  "application/json"
 
 export async function genaiFigmaRequest(prompt,imageUrl){
